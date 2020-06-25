@@ -1,0 +1,34 @@
+hello welcome to devops world
+    scm --->> source code management
+           git --->>is central repository tool
+	         --> both modes cli&gui
+		 --> more secure & logs for every event
+		 -->> installation is very fast & easy..
+
+
+		 git logs
+		      -->> git log
+		           git log -n
+			   git log --oneline
+			   git log --since=yy-mm-dd
+			   git log --since="yy-mm-dd hh:mm"
+			      (or)
+			   git log --after="yy-mm-dd hh:mm"
+			   git log --author=name of the author
+			   git log --grep="label id"
+			   git log --filename
+
+			   git log --until=yy-mm-dd
+			        (or)
+	                   git log --before="yy-mm-dd hh:mm"
+			   git clone path/of/c-repository
+			   git push
+			   git reset HEAD filename
+			   git reset --soft cid
+			   git reset --mixed cid
+			   git reset --hard cid (delete)
+			   git show
+			   git status
+			   git init
+			   git config --list
+			   git config --global user.name=name 
